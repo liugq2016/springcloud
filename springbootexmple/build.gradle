@@ -16,6 +16,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'junit:junit:4.12'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator,引入端点监控模块
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.4.1'
+
 }
 
 test {
